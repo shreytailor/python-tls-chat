@@ -1,0 +1,17 @@
+QWidget {
+    background-color: #F1F5FB;
+}
+
+QPushButton {
+    color: white;
+    background-color: #181818;
+}
+
+QLineEdit {
+    color: black;
+}
+
+QLabel {
+    color: #1C3044;
+    font-weight: bold;
+}
