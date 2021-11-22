@@ -1,6 +1,6 @@
 # Python TLS Chat
 
-A secured chatting application, implemented using Python, PyQt, and mechanisms of *Sockets* and *Public Key Cryptography*. 
+A secured chatting application, implemented using Python, PyQt, and mechanisms of *Sockets* and *Public Key Cryptography*.
 
 ## Functionality
 
@@ -9,6 +9,8 @@ A secured chatting application, implemented using Python, PyQt, and mechanisms o
 - Clients can create chatting groups and invite their friends to join.
 - Clients can communicate with others, either by direct messaging or joining an existing group.
 - Communication between clients is fully encrypted using *public key cryptography*, so the messages cannot be intercepted and interpretted by attackers.
+
+> **Quirk:** The application doesn't yet support multiple people having the same name. Such a situation may lead to unexpected results.
 
 ## Instructions
 
