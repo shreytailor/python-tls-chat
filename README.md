@@ -10,6 +10,28 @@ A secured chatting application, implemented using Python, PyQt, and mechanisms o
 - Clients can communicate with others, either by direct messaging or joining an existing group.
 - Communication between clients is fully encrypted using *public key cryptography*, so the messages cannot be intercepted and interpretted by attackers.
 
+## Instructions
+
+1. Firstly, install the PyQT dependency (*required for the graphical user interface*).
+
+```
+pip3 install PyQt5
+```
+
+2. Run the server, using the command below.
+
+```
+cd server
+python3 Server.py
+```
+
+3. Run the client application, using the command below.
+
+```
+cd client
+python3 Entrypoint.py
+```
+
 ## Software Architecture
 
 ### Package Diagram
